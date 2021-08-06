@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio page</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" type="text/css" href="portfolio.css">
+</head>
+<body>
+
+<div class="nav-div">
+  <div class="container g-0">
+    <nav>
+        <div style="display: flex;justify-content: space-between;align-items: center;">
+             <div style="display: flex;align-items: center;">
+               
+                  <input type="checkbox" id="check"><label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+                  <label class="logo">LOGO</label>
+               <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="about.html">Pages</a></li>
+                     <li><a href="service.html">Servies</a></li>
+                     <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                     <li><a href="blog.html">Blog</a></li>
+                     <li><a href="contact.html">Contact</a></li>
+                </ul>
+               </div>
+                    <div class="search">
+                      <input class="s-input" type="text" name="search" placeholder="Search here"><i class="fas fa-search s-icon"></i>
+                    </div>
+          </div>
+    </nav>
+  </div> 
+</div>
+
+
+<!-- second div start -->
+<div class="second-div">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 order-2 order-lg-1">
+				<div class="photo-text animate__animated animate__fadeInLeft animate__delay-1s">
+		            <h1>Amazing works</h1>
+		            <p>Projects that have been completed and recieved high good reviews from both customers and business fellows.</p>
+		            <div>
+		                <button class="photo-btn41" onclick="alert('This feature is coming soon')">Read more</button>
+		                <button class="photo-btn42" onclick="alert('This feature is coming soon')">Free counsultation -></button>
+		            </div>
+        		</div>
+			</div>
+			<div class="col-lg-6 order-1 order-lg-2">
+				<div class="image"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- second div end -->
+
+<!-- third div of buttons start -->
+<div class="third-div-buttons">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<ul>
+					<li class="list-name active"><a onclick="total()">All</a></li>
+					<li><a onclick="business()">Business</a></li>
+					<li><a onclick="marketing()">Marketing</a></li>
+					<li><a onclick="immovables()">Immovables</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-6">
+				<ul>
+					
+					<li><a onclick="finance()">Finance</a></li>
+					<li><a onclick="tech()">Tech</a></li>
+					<li><a onclick="art()">Art</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- third div of buttons end -->
+
+
+<!-- third div of images start -->
+<div class="forth-div" id="total">
+	<div class="container">
+		<div class="row">
+			<!-- number 1 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="11.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Business,Marketing</p>
+					<h5>Marketing solution</h5>
+				</div>
+			</div>
+			<!-- number 2 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="22.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Marketing,Immovables</p>
+					<h5>Strategic assessment</h5>
+				</div>
+			</div>
+			<!-- number 3 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="33.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Business,Finance</p>
+					<h5>Financial income</h5>
+				</div>
+			</div>
+			<!-- number 4 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="44.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Tech</p>
+					<h5>Virtual integration</h5>
+				</div>
+			</div>
+			<!-- number 5 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="55.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Business</p>
+					<h5>Marketing growth</h5>
+				</div>
+			</div>
+			<!-- number 6 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="66.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Business,Tech</p>
+					<h5>The tablet app of the future</h5>
+				</div>
+			</div>
+			<!-- number 7 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="77.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Art</p>
+					<h5>Creative life</h5>
+				</div>
+			</div>
+			<!-- number 8 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="88.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Marketing</p>
+					<h5>Consumer products</h5>
+				</div>
+			</div>
+			<!-- number 9 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="99.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Finance</p>
+					<h5>Crypto wallets</h5>
+				</div>
+			</div>
+
+			
+		</div>
+	</div>
+</div>
+
+<!-- business start -->
+<div class="forth-div" id="business">
+	<div class="container">
+		<div class="row">
+			<!-- number 1 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="11.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Business,Marketing</p>
+					<h5>Marketing solution</h5>
+				</div>
+			</div>
+			<!-- number 2 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 3 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 4 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 5 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="55.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Business</p>
+					<h5>Marketing growth</h5>
+				</div>
+			</div>
+			<!-- number 6 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 7 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 8 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 9 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="99.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Finance</p>
+					<h5>Crypto wallets</h5>
+				</div>
+			</div>
+
+			
+		</div>
+	</div>
+</div>
+<!-- business end -->
+
+<!-- marketing start -->
+<div class="forth-div" id="marketing">
+	<div class="container">
+		<div class="row">
+			<!-- number 1 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 2 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 3 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="33.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Business,Finance</p>
+					<h5>Financial income</h5>
+				</div>
+			</div>
+			<!-- number 4 -->
+			<div class="col-md-6 col-lg-4">
+			
+			</div>
+			<!-- number 5 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="55.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Business</p>
+					<h5>Marketing growth</h5>
+				</div>
+			</div>
+			<!-- number 6 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 7 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="77.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Art</p>
+					<h5>Creative life</h5>
+				</div>
+			</div>
+			<!-- number 8 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 9 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+
+			
+		</div>
+	</div>
+</div>
+<!-- marketing end -->
+
+<!-- immovables start -->
+<div class="forth-div" id="immovables">
+	<div class="container">
+		<div class="row">
+			<!-- number 1 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 2 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 3 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 4 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="44.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Tech</p>
+					<h5>Virtual integration</h5>
+				</div>
+			</div>
+			<!-- number 5 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="55.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Business</p>
+					<h5>Marketing growth</h5>
+				</div>
+			</div>
+			<!-- number 6 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="66.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Business,Tech</p>
+					<h5>The tablet app of the future</h5>
+				</div>
+			</div>
+			<!-- number 7 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 8 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 9 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+
+			
+		</div>
+	</div>
+</div>
+<!-- immovables end -->
+
+<!-- finance start -->
+<div class="forth-div" id="finance">
+	<div class="container">
+		<div class="row">
+			<!-- number 1 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="11.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Business,Marketing</p>
+					<h5>Marketing solution</h5>
+				</div>
+			</div>
+			<!-- number 2 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 3 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 4 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="44.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Tech</p>
+					<h5>Virtual integration</h5>
+				</div>
+			</div>
+			<!-- number 5 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 6 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 7 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="77.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Art</p>
+					<h5>Creative life</h5>
+				</div>
+			</div>
+			<!-- number 8 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 9 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+
+			
+		</div>
+	</div>
+</div>
+<!-- finance end -->
+
+<!-- tech start -->
+<div class="forth-div" id="tech">
+	<div class="container">
+		<div class="row">
+			<!-- number 1 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 2 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="22.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Marketing,Immovables</p>
+					<h5>Strategic assessment</h5>
+				</div>
+			</div>
+			<!-- number 3 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 4 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 5 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="55.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Business</p>
+					<h5>Marketing growth</h5>
+				</div>
+			</div>
+			<!-- number 6 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 7 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 8 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="88.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Marketing</p>
+					<h5>Consumer products</h5>
+				</div>
+			</div>
+			<!-- number 9 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+
+			
+		</div>
+	</div>
+</div>
+<!-- tech end -->
+
+<!-- art start -->
+<div class="forth-div" id="art">
+	<div class="container">
+		<div class="row">
+			<!-- number 1 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 2 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 3 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="33.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Business,Finance</p>
+					<h5>Financial income</h5>
+				</div>
+			</div>
+			<!-- number 4 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 5 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 6 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="66.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Business,Tech</p>
+					<h5>The tablet app of the future</h5>
+				</div>
+			</div>
+			<!-- number 7 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 8 -->
+			<div class="col-md-6 col-lg-4">
+				
+			</div>
+			<!-- number 9 -->
+			<div class="col-md-6 col-lg-4">
+				<div class="for-massage">
+					<div class="wrapper">
+				         <div class="card front-face"><img src="99.jpg"></div>
+				         <div class="card back-face">
+				         	<p>Client: Medison</p>
+				         	<p>Date: 30.07.2021</p>
+				         	<br>
+				         	<p>Leo vel orci porta non. Aliquam nulla facilisi cras fermentum odio eu. Vulputate odio ut enim volutpat ...</p>
+				         </div>
+				    </div>
+					<p>Finance</p>
+					<h5>Crypto wallets</h5>
+				</div>
+			</div>
+
+			
+		</div>
+	</div>
+</div>
+<!-- art end -->
+
+
+<!-- third div of images end -->
+
+<!-- eleventh div start -->
+<div class="eleventh-div">
+  <div class="container">
+    <div class="eleventh-div2">
+        <div>
+            <i class="far fa-envelope"></i>Subscribe to our newsletters
+            
+        </div>
+        <button>Send</button>
+    </div>
+  </div>
+</div>
+<!-- eleventh div end -->
+
+<!-- footer div start -->
+<div class="footer-div">
+  <div class="container">
+    <div class="row g-0">
+      <div class="col-md-6 col-lg-4">
+        <div class="footer-logo">
+              <h1>LOGO</h1>
+              <p>This wise man therefore always holds in these on matters to this principle selection he rejects the to secure other friend.</p>
+              <hr class="hr  mb-5 mb-lg-0">
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="footer-address">
+          <h1>Contact Info</h1>
+          <p><i class="fas fa-map-marker-alt"></i>2 st Gabrial Walk London SE1 6FG, UK</p>
+          <p><i class="fas fa-phone-volume"></i>+44 141 552 3000</p>
+          <p><i class="far fa-envelope"></i>rhjubi@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="col-lg-2">
+        <div class="footer-links1">
+              <h1 class="h  mt-5 mb-lg-0">Links</h1>
+              <a href="about.html">About Company</a>
+              <a href="service.html">Our Services</a>
+              <a class="active" href="portfolio.html">Portfolio</a>
+        </div>
+      </div>
+
+      <div class="col-lg-2">
+        <div class="footer-links2">
+          <a href="team.html">Team</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- footer div end -->
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<script type="text/javascript">
+  function total() {
+    document.getElementById('total').style.display = "block";
+    document.getElementById('business').style.display = "none";
+    document.getElementById('marketing').style.display = "none";
+    document.getElementById('immovables').style.display = "none";
+    document.getElementById('finance').style.display = "none";
+    document.getElementById('tech').style.display = "none";
+    document.getElementById('art').style.display = "none";
+  }
+
+  function business() {
+    document.getElementById('total').style.display = "none";
+    document.getElementById('business').style.display = "block";
+    document.getElementById('marketing').style.display = "none";
+    document.getElementById('immovables').style.display = "none";
+    document.getElementById('finance').style.display = "none";
+    document.getElementById('tech').style.display = "none";
+    document.getElementById('art').style.display = "none";
+  }
+
+    function marketing() {
+    document.getElementById('total').style.display = "none";
+    document.getElementById('business').style.display = "none";
+    document.getElementById('marketing').style.display = "block";
+    document.getElementById('immovables').style.display = "none";
+    document.getElementById('finance').style.display = "none";
+    document.getElementById('tech').style.display = "none";
+    document.getElementById('art').style.display = "none";
+  }
+
+  function immovables() {
+    document.getElementById('total').style.display = "none";
+    document.getElementById('business').style.display = "none";
+    document.getElementById('marketing').style.display = "none";
+    document.getElementById('immovables').style.display = "block";
+    document.getElementById('finance').style.display = "none";
+    document.getElementById('tech').style.display = "none";
+    document.getElementById('art').style.display = "none";
+  }
+
+    function finance() {
+    document.getElementById('total').style.display = "none";
+    document.getElementById('business').style.display = "none";
+    document.getElementById('marketing').style.display = "none";
+    document.getElementById('immovables').style.display = "none";
+    document.getElementById('finance').style.display = "block";
+    document.getElementById('tech').style.display = "none";
+    document.getElementById('art').style.display = "none";
+  }
+
+  function tech() {
+    document.getElementById('total').style.display = "none";
+    document.getElementById('business').style.display = "none";
+    document.getElementById('marketing').style.display = "none";
+    document.getElementById('immovables').style.display = "none";
+    document.getElementById('finance').style.display = "none";
+    document.getElementById('tech').style.display = "block";
+    document.getElementById('art').style.display = "none";
+  }
+    function art() {
+    document.getElementById('total').style.display = "none";
+    document.getElementById('business').style.display = "none";
+    document.getElementById('marketing').style.display = "none";
+    document.getElementById('immovables').style.display = "none";
+    document.getElementById('finance').style.display = "none";
+    document.getElementById('tech').style.display = "none";
+    document.getElementById('art').style.display = "block";
+  }
+
+
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script type="text/javascript">
+  $(document).on('click', 'ul li', function(){
+    $(this).addClass('active').siblings().removeClass('active')
+  })
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
